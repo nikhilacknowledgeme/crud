@@ -16,7 +16,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-public class Application implements WebMvcConfigurer {
+public class Application implements WebMvcConfigurer
+{
+//Java
+// is
+//programming
+// language
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
@@ -29,7 +34,11 @@ public class Application implements WebMvcConfigurer {
 	
 	@Bean
 	public Docket docket() {
-		
+//
+ //
+
+//
+
 		ApiInfoBuilder  builder=new ApiInfoBuilder();
 		builder.title("Hotel REST Api Documentation");
 		builder.version("1.1");
