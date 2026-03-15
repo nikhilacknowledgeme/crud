@@ -16,6 +16,9 @@ import lombok.Data;
 @Entity
 @Table(name = "BOOKING")
 @Data
+//
+ //
+ //
 public class BookingEntity {
 	
 	@Id
